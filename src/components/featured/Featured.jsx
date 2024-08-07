@@ -6,23 +6,28 @@ const Featured = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.title}>
-        <b>Hey, Galgotias Dev here!</b> Discover my stories and creative ideas.
+        <strong>Hey, Galgotias Dev here!</strong> Explore my latest stories and
+        creative ideas.
       </h1>
       <div className={styles.post}>
         <div className={styles.imgContainer}>
-          <Image src="/p1.jpeg" alt="" fill className={styles.image} />
+          <Image
+            src="/p1.jpeg"
+            alt="Featured Post Image"
+            fill
+            className={styles.image}
+          />
         </div>
         <div className={styles.textContainer}>
-          <h1 className={styles.postTitle}>
-            Lorem ipsum dolor sit amet alim consectetur adipisicing elit.
-          </h1>
+          <h2 className={styles.postTitle}>
+            Unveiling the Future: How Technology is Shaping Our World
+          </h2>
           <p className={styles.postDesc}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Cupiditate, quam nisi magni ea laborum inventore voluptatum
-            laudantium repellat ducimus unde aspernatur fuga. Quo, accusantium
-            quisquam! Harum unde sit culpa debitis.
+            Dive into an in-depth exploration of the latest technological
+            advancements and their impact on society. From AI innovations to the
+            rise of blockchain, discover how these trends are transforming our
+            daily lives and what the future holds for tech enthusiasts.
           </p>
-          <button className={styles.button}>Read More</button>
         </div>
       </div>
     </div>
