@@ -1,0 +1,48 @@
+/* about.module.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #2563eb; /* text-blue-600 */
+  }
+  
+  .description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #4a5568; /* text-gray-700 */
+  }
+  
+  .section {
+    margin-bottom: 2.5rem;
+  }
+  
+  .subheading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2d3748; /* text-gray-800 */
+  }
+  
+  .text {
+    font-size: 1.125rem;
+    margin-bottom: 1rem;
+    color: #4a5568; /* text-gray-700 */
+  }
+  
+  .list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+  }
+  
+  .listItem {
+    margin-bottom: 0.75rem;
+  }
+  
