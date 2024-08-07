@@ -1,0 +1,60 @@
+/* menu.module.css */
+
+.status {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: green; /* Change color based on status */
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .newsletter h1 {
+    font-size: 1.75rem;
+    color: #222;
+    margin-bottom: 1rem;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #005bb5;
+  }
